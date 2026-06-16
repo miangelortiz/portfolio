@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "serve": "serve -p 3000 .",
+    "build": "esbuild assets/css/style.css --minify --outfile=assets/css/style.min.css && esbuild assets/js/script.js --minify --outfile=assets/js/script.min.js",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
     "test:report": "playwright show-report"
@@ -23,6 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.40.0",
+    "esbuild": "^0.28.1",
     "serve": "^14.2.1"
   }
 }

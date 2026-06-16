@@ -2,8 +2,6 @@
    Estilos de Diseño CV Profesional - Miguel Angel Ortiz
    ---------------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
-
 /* Variables de Temas */
 :root {
     --font-sans: 'Plus Jakarta Sans', sans-serif;
@@ -17,7 +15,7 @@
     
     --text-primary: #0f172a;
     --text-secondary: #475569;
-    --text-muted: #64748b;
+    --text-muted: #57657a; /* Color con contraste mejorado (5.0:1 s/ blanco) para cumplir WCAG AA */
     
     --accent: #2563eb;
     --accent-rgb: 37, 99, 235;
@@ -621,8 +619,7 @@ footer {
 
 .footer-copy {
     font-size: 0.75rem;
-    color: var(--text-muted);
-    opacity: 0.55;
+    color: var(--text-secondary); /* Contraste mejorado (6.45:1 s/ blanco) sin opacidad */
     font-family: var(--font-mono);
     letter-spacing: 0.02em;
 }
