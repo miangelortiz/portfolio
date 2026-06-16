@@ -3,7 +3,7 @@
 > Desarrollador Backend Sénior | Especialista en IoT  
 > [maortizolid@gmail.com](mailto:maortizolid@gmail.com) · [linkedin.com/in/maortizolid](https://linkedin.com/in/maortizolid) · [github.com/miangelortiz](https://github.com/miangelortiz)
 
-Currículum web interactivo construido sin frameworks ni compilación. Desplegado en  [maortiz.es](https://maortiz.es) y compatible con cualquier servidor estático.
+Currículum web interactivo construido sin frameworks ni compilación. Desplegado en  [portfolio-maortiz.vercel.app](https://portfolio-maortiz.vercel.app) y compatible con cualquier servidor estático.
 
 ---
 
@@ -21,7 +21,7 @@ Currículum web interactivo construido sin frameworks ni compilación. Desplegad
 
 ## Exportar a PDF
 
-1. Abre [maortiz.es](https://maortiz.es) en Chrome, Edge o Safari.
+1. Abre [portfolio-maortiz.vercel.app](https://portfolio-maortiz.vercel.app) en Chrome, Edge o Safari.
 2. Pulsa el botón de impresora del dock inferior o `Ctrl + P`.
 3. Configura: destino **Guardar como PDF**, tamaño **A4**, márgenes **predeterminados**, cabeceras y pies de página **desactivados**.
 4. Guarda. El resultado son exactamente **2 páginas limpias**.
