@@ -1,0 +1,28 @@
+{
+  "name": "maortiz-portfolio-cv",
+  "version": "1.0.0",
+  "description": "Portfolio y CV bilingüe interactivo con consola CLI y soporte de impresión optimizado de Miguel Angel Ortiz Olid.",
+  "main": "index.html",
+  "scripts": {
+    "serve": "serve -p 3000 .",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "portfolio",
+    "cv",
+    "resume",
+    "backend",
+    "iot",
+    "typescript",
+    "playwright",
+    "integration-tests"
+  ],
+  "author": "Miguel Angel Ortiz Olid",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "serve": "^14.2.1"
+  }
+}
