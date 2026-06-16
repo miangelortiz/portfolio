@@ -842,6 +842,10 @@ footer {
     .terminal-input {
         font-size: 0.8rem;
     }
+
+    .prompt-host {
+        display: none;
+    }
 }
 
 @media print {
@@ -1193,6 +1197,7 @@ footer {
     font-size: 0.875rem;
     caret-color: #56d364;
     padding: 0;
+    min-width: 0; /* Permite que el input se encoja para evitar desbordes y wraps en móvil */
 }
 
 /* Resaltado de sintaxis JSON en terminal */
