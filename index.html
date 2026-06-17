@@ -19,7 +19,9 @@
     <script src="assets/js/script.min.js" defer></script>
     <script type="module">
         import { injectSpeedInsights } from '/node_modules/@vercel/speed-insights/dist/index.mjs';
+        import { inject } from '/node_modules/@vercel/analytics/dist/index.mjs';
         injectSpeedInsights();
+        inject();
     </script>
 </head>
 
